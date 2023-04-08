@@ -5,13 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Color switcher</title>
     <link rel="stylesheet" href="css/common.css" />
+     <style>
+      .widget {
+        text-align: center;
+      }
+
+      .widget p {
+        margin-top: 0;
+        margin-bottom: 16px;
+        font-size: 48px;
+      }
+
+      .widget span {
+        font-family: monospace;
+      }
+
+      .widget button {
+        padding: 8px 12px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+    </style>
   </head>
   <body>
     <p><a href="index.html">Go back</a></p>
-
+<div class="widget">
     <button type="button" data-start>Start</button>
     <button type="button" data-stop>Stop</button>
-
+</div>
     <script src="js/01-color-switcher.js" type="module"></script>
   </body>
 </html>
